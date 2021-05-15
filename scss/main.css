@@ -27,10 +27,76 @@
     transform: scaleX(1);
     transform-origin: bottom left; }
 
+.footer {
+  background-color: #717cff; }
+
+.title {
+  text-align: center; }
+
+.subtitle {
+  text-align: center;
+  color: #98a0a4; }
+
 .hero-text {
-  color: #7d7d7d; }
+  color: #98a0a4; }
+.hero-image {
+  float: right; }
 
 .universities {
   background-color: #fafafa; }
+  .universities-image {
+    margin: 0 auto; }
+
+.services-card {
+  max-width: 344px;
+  box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.11);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 3.125rem; }
+  .services-card:hover {
+    border: 2px solid #717cff; }
+  .services-card_image {
+    width: 75px;
+    height: auto;
+    margin-bottom: 1.875rem; }
+  .services-card_text {
+    font-size: 1rem;
+    color: #98a0a4; }
+  .services-card_link {
+    color: #717cff;
+    font-weight: 700;
+    text-decoration: none; }
+    .services-card_link:hover {
+      color: #717cff; }
+
+.news {
+  background-color: #fafafa; }
+  .news-post {
+    margin: 0 auto;
+    background-color: white;
+    max-width: 344px;
+    box-shadow: 0px 0px 13px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+    min-height: 400px;
+    transition: 0.2s ease; }
+    .news-post:hover {
+      transform: translateY(-5px); }
+    .news-post a {
+      text-decoration: none; }
+    .news-post_textBox {
+      padding: 28px; }
+    .news-post_image {
+      border-radius: 10px; }
+    .news-post_title {
+      font-size: 1.375rem;
+      font-weight: 700;
+      color: black; }
+    .news-post_date {
+      font-size: 1rem;
+      color: black; }
+  .news-cta {
+    width: fit-content;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

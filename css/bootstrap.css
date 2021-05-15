@@ -148,6 +148,7 @@ h6,
 }
 
 p {
+  font-size: 1.375rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -7237,6 +7238,11 @@ fieldset:disabled .btn {
   margin-bottom: 3rem !important;
 }
 
+.my-6 {
+  margin-top: 6rem !important;
+  margin-bottom: 6rem !important;
+}
+
 .my-auto {
   margin-top: auto !important;
   margin-bottom: auto !important;
@@ -7264,6 +7270,10 @@ fieldset:disabled .btn {
 
 .mt-5 {
   margin-top: 3rem !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
 }
 
 .mt-auto {
@@ -7320,6 +7330,10 @@ fieldset:disabled .btn {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 6rem !important;
 }
 
 .mb-auto {
@@ -7462,6 +7476,10 @@ fieldset:disabled .btn {
   padding-top: 3rem !important;
 }
 
+.pt-6 {
+  padding-top: 6rem !important;
+}
+
 .pe-0 {
   padding-right: 0 !important;
 }
@@ -7509,6 +7527,11 @@ fieldset:disabled .btn {
 .pb-5 {
   padding-bottom: 3rem !important;
 }
+
+.pb-6 {
+  padding-bottom: 6rem !important;
+}
+
 
 .ps-0 {
   padding-left: 0 !important;
