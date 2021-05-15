@@ -1,3 +1,28 @@
 .footer {
   background-color: $purple;
+
+  p {
+    color: white;
+    font-size: 1rem;
+  }
+
+  &-image {
+    width: 146px;
+  }
+
+  &-link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &-link {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+  }
 }
