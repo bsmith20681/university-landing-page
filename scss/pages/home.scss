@@ -152,3 +152,16 @@
     }
   }
 }
+
+.cta {
+  &-text {
+    font-weight: 700;
+    font-size: 2.375rem;
+    width: fit-content;
+  }
+
+  &-btn {
+    width: 260px;
+    display: inline-block;
+  }
+}
