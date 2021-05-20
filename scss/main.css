@@ -52,10 +52,17 @@
   text-align: center;
   color: #98a0a4; }
 
-.hero-text {
-  color: #98a0a4; }
-.hero-image {
-  float: right; }
+.hero {
+  position: relative; }
+  .hero-text {
+    color: #98a0a4; }
+  .hero-image {
+    float: right;
+    z-index: 2;
+    position: relative; }
+  .hero-blob {
+    position: absolute;
+    top: 30px; }
 
 .universities {
   background-color: #fafafa; }
@@ -154,5 +161,22 @@
 .cta-btn {
   width: 260px;
   display: inline-block; }
+
+.places {
+  background-color: #fafafa; }
+  .places-slider {
+    width: fit-content; }
+    .places-slider_card {
+      max-width: 350px;
+      padding: 1rem; }
+    .places-slider_image {
+      border-radius: 30px; }
+    .places-slider_title {
+      font-size: 1.625rem;
+      font-weight: 700;
+      margin-top: 1rem; }
+    .places-slider_text {
+      font-size: 1rem;
+      color: #98a0a4; }
 
 /*# sourceMappingURL=main.css.map */

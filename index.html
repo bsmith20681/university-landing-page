@@ -61,7 +61,7 @@
     </header>
     <section class="container hero ">
       <div class="row mt-5">
-        <div class="col-md-6 mt-5">
+        <div class="col-md-6 col-sm-12 mt-5">
           <h1><strong>We Help to <span style="color: #717cff">Build</span> Your Dream</strong></h1>
           <p class="hero-text mt-3">
             We are always availed to consult on taking your higher education to
@@ -72,7 +72,7 @@
           <a href="#" class="btn btn-purple">Apply Online</a>
         </div>
         <div class="col-md-6">
-          <img class="hero-image" src="/images/girl.jpg" alt="girl graduating" />
+          <img class="hero-image" src="/images/girl.png" alt="girl graduating" />
         </div>
       </div>
     </section>
@@ -274,6 +274,61 @@
         </div>
       </div>
     </section>
+    
+    <section class="places">
+      <div class="container ">
+        <div class="row">
+          <h3 class="title mt-6">Countries We Covered</h3>
+          <p class="subtitle">Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
+        </div>
+        <div class="row">
+          <div class="places-slider">
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/austrailia.jpg" alt="austrailia">
+                <p class="places-slider_title">Study in Australia</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/canada.jpg" alt="canada">
+                <p class="places-slider_title">Study in Cananda</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/uk.jpg" alt="uk">
+                <p class="places-slider_title">Study in UK</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/japan.jpg" alt="japan">
+                <p class="places-slider_title">Study in Japan</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/korea.jpg" alt="South Korea">
+                <p class="places-slider_title">Study in South Korea</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+            <div>
+              <div class="places-slider_card">
+                <img class="places-slider_image" src="/images/france.jpg" alt="France">
+                <p class="places-slider_title">Study in France</p>
+                <p class="places-slider_text">Ut aut corporis accusantium illo ullam qui laudantium. Maxime rerum sunt et sequi sed qui rerum hic. Voluptatem maiores voluptatum voluptate porro harum. Facilis voluptatum eum est.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="cta py-5">
       <div class="container">
@@ -352,6 +407,32 @@
           arrows: false,
           slidesToShow: 2,
           slidesToScroll: 2,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          responsive: [
+          {
+            breakpoint: 769,
+            settings: {
+            slidesToShow: 2,
+            centerMode: false, /* set centerMode to false to show complete slide instead of 3 */
+            slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 418,
+            settings: {
+            slidesToShow: 1,
+            centerMode: false, /* set centerMode to false to show complete slide instead of 3 */
+            slidesToScroll: 1
+            }
+          }
+        ]
+        });
+        $('.places-slider').slick({
+          dots: true,
+          arrows: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 3000,
           responsive: [
