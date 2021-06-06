@@ -5,19 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.css" />
     <link rel="stylesheet" href="/css/slick-theme.css" />
     <link rel="stylesheet" href="/css/slick.css">
     <link rel="stylesheet" href="/scss/main.css">
-
-    <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous"
-  ></script>
   </head>
   <body>
-    <header class="container">
+    <header class="container" data-aos="fade-down">
       <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
@@ -59,7 +54,7 @@
         </nav>
       </div>
     </header>
-    <section class="container hero ">
+    <section class="container hero" data-aos="fade-up">
       <div class="row mt-5">
         <div class="col-md-6 col-sm-12 mt-5">
           <h1><strong>We Help to <span style="color: #717cff">Build</span> Your Dream</strong></h1>
@@ -79,7 +74,7 @@
 
     <section class="universities">
       <div class="container pt-5">
-        <div class="row">
+        <div class="row animate__animated animate__fadeInUp">
           <p class="text-center">FEATURED UNIVERSITIES</p>
           <div class="slider pt-5 pb-3">
             <div><img class="universities-image" src="/images/macquarie.png" alt="macquarie logo"></div>
@@ -276,7 +271,7 @@
     </section>
     
     <section class="places">
-      <div class="container ">
+      <div class="container">
         <div class="row">
           <h3 class="title mt-6">Countries We Covered</h3>
           <p class="subtitle">Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
@@ -340,7 +335,8 @@
     </section>
 
     <footer class="footer">
-      <div class="container py-5">
+      <div class="container">
+        <div class="container py-5">
         <div class="row">
           <div class="col-md-3 footer-link-list">
             <img class="footer-image" src="/images/logo-white.png" alt="logo">
@@ -365,6 +361,11 @@
         </div>
       </div>
     </footer>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+  ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -372,7 +373,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="/js/bootstrap.min.js"></script>
-   <!--<script src="/js/slick.js"></script>--> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--activate animation library-->
+    <script>
+      AOS.init({once: true});
+    </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
       $(document).ready(function(){
